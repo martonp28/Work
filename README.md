@@ -23,19 +23,19 @@ The notebooks should be executed in the following order:
 ### 1. `1_database_build_pub.ipynb`
 Constructs the initial chat-level database from the raw chat logs. The notebook reconstructs question–answer pairs, removes unmatched and duplicate observations, links anonymized student identifiers to assessment data, and creates the initial chat-level variables.
 
-### 2. `2_profiles_times.ipynb`
+### 2. `2_profiles_times_59_jav.ipynb`
 Creates student-level temporal usage measures and classifies AI users into non-user, occasional, and regular user profiles. It also calculates usage by study period and identifies examination-related and post-incentive activity.
 
-### 3. `3_homework_flag.ipynb`
+### 3. `3_homework_flag_59.ipynb`
 Identifies copied homework submissions using text-matching procedures and applies the documented manual corrections. It subsequently creates student-level measures of homework-copying behavior.
 
-### 4. `4_user_level.ipynb`
+### 4. `4_user_level_59.ipynb`
 Aggregates the chat-level information to the student level and combines AI-use measures with course assessment and engagement data.
 
-### 5. `5_descriptive_analysis_pub.ipynb`
+### 5. `5_descriptive_analysis_pub_59_jav.ipynb`
 Produces the descriptive analyses reported in the study, including query-category distributions, question and answer lengths, user-profile comparisons, temporal usage patterns, course engagement, and academic performance.
 
-### 6. `6_regression_analysis_pub.ipynb`
+### 6. `6_regression_analysis_pub_59.ipynb`
 Estimates the three final OLS regression models, conducts robustness checks, and performs regression diagnostics including heteroskedasticity, residual normality, autocorrelation, multicollinearity, and residual-versus-fitted analyses.
 
 ## Data availability
