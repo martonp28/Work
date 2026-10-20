@@ -1,6 +1,6 @@
 # Replication Materials
 
-This repository contains the Python Jupyter notebooks used to construct the dataset and reproduce the analyses reported in the accompanying study of a curriculum-grounded retrieval-augmented generation (RAG) AI tutor in higher education. The anonymised chat-level and user-level databases are also included here. The exact questions and answers were deleted from the chat-level database to preserve student privacy. All the necessary analyses carried out in the paper can be replicated using these databases.
+This repository contains the Python Jupyter notebooks used to construct the dataset and reproduce the analyses reported in the accompanying study of a curriculum-grounded retrieval-augmented generation (RAG) AI tutor in higher education. The anonymised chat-level and user-level databases are also included here (chat_level_final_59.xlsx and userlevel_59.xlsx). The exact questions and answers were deleted from the chat-level database to preserve student privacy. All the necessary analyses carried out in the paper can be replicated using these databases.
 
 ## Study overview
 
